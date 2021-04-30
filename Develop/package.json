@@ -1,7 +1,7 @@
 {
   "name": "budget-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Budgeting web app to help manage finances online or offline.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,18 +10,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
+    "url": "git+https://github.com/dakotapierce26/Finance-Tracker"
   },
-  "author": "",
+  "author": "Dakota Pierce",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/coding-boot-camp/unit18hw/issues"
+    "url": "https://github.com/dakotapierce26/Finance-Tracker/issues"
   },
-  "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
+  "homepage": "https://github.com/dakotapierce26/Finance-Tracker#readme",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
     "mongoose": "^5.5.15",
     "morgan": "^1.9.1"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
